@@ -1,0 +1,8 @@
+dataset,n_boot,gate,gate_flip,gamma_out
+D1,100,True,0.0,0.0
+D2,100,True,0.0,0.0
+D3,100,False,0.0,0.25
+D4,100,True,0.0,0.0
+D5,100,False,0.0,0.0
+D6,100,False,0.0,1.0
+D7,100,False,0.0,1.0

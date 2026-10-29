@@ -1,0 +1,10 @@
+test,value,detail
+channels used (index-aligned prefix),2522.0,first 2522 stored channels of each release; axes agree to well under one channel width (panel A)
+"D8 -> nearest D7 spectrum, cosine (raw absorbance)",0.962211446965652,"p5 0.9427, p95 0.9731, max 0.9735; n>0.999 0, n>0.99 0, n>0.95 257 of 350"
+"D8 -> nearest D7 spectrum, cosine (mean-centred)",0.9253440564117104,"p5 0.8778, p95 0.9471, max 0.9478; n>0.999 0, n>0.99 0, n>0.95 0 of 350"
+D8 self nearest neighbour cosine (median),0.9871409083496618,"p95 0.9988, max 0.9989"
+"D7 self nearest neighbour cosine (median, 1950 spectra)",0.9986984475055878,"p5 0.9625, p95 0.9995, max 0.9995"
+D7 0% walnut vs 0% peanut cosine,0.9347092737616473,"max 0.9381, mean 0.9343, exact duplicates 0 of 50"
+D7 0% walnut vs 0% wood dust cosine,0.8650997294575513,"max 0.8677, mean 0.8600, exact duplicates 0 of 50"
+D7 0% peanut vs 0% wood dust cosine,0.8622194028915466,"max 0.8629, mean 0.8565, exact duplicates 0 of 50"
+D8 0% vs D7 0% nearest cosine,0.9599268190474269,"max 0.9621, mean 0.9016 (50 vs 150 spectra)"

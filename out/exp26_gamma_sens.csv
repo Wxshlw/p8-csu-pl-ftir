@@ -1,0 +1,43 @@
+dataset,variant,gamma
+D1,unweighted (reported),-0.08771083133779457
+D1,weighted by spectra per level,-0.03643563911425787
+D1,drop lowest level,-0.18129862188765383
+D1,drop highest level,0.04280164235791701
+D1,drop both end levels,-0.036445287624296684
+D1,"cubic fit, quadratic term",-0.08771083133779357
+D2,unweighted (reported),-0.16403887693483626
+D2,weighted by spectra per level,-0.1290552922053288
+D2,drop lowest level,-0.20009059101480278
+D2,drop highest level,-0.11585088045592488
+D2,drop both end levels,-0.15322055612821145
+D2,"cubic fit, quadratic term",-0.16403887693483524
+D3,unweighted (reported),-0.3682292448747345
+D3,weighted by spectra per level,-0.4162791943604301
+D3,drop lowest level,-0.20339826616046078
+D3,drop highest level,-0.644739909171145
+D3,drop both end levels,-0.050440795041833394
+D3,"cubic fit, quadratic term",-0.3682292448747346
+D4,unweighted (reported),-0.5121402163601874
+D4,weighted by spectra per level,-0.5121402163601882
+D4,drop lowest level,-1.4607922868305305
+D4,drop highest level,0.18575650813914613
+D4,drop both end levels,-1.1684844141208803
+D4,"cubic fit, quadratic term",1.2360390380712951
+D5,unweighted (reported),-0.07228816923885079
+D5,weighted by spectra per level,-0.07228816923885281
+D5,drop lowest level,-0.12605822850958567
+D5,drop highest level,0.025722502539210764
+D5,drop both end levels,-0.005858684982882237
+D5,"cubic fit, quadratic term",0.042910284786482275
+D6,unweighted (reported),-3.8989925105128713
+D6,weighted by spectra per level,-3.898992510512871
+D6,drop lowest level,-4.763168397908235
+D6,drop highest level,-3.3742822831638777
+D6,drop both end levels,-4.328682331635698
+D6,"cubic fit, quadratic term",-3.63488395698434
+D7,unweighted (reported),-3.0229448589016537
+D7,weighted by spectra per level,-3.0229448589016514
+D7,drop lowest level,-1.2678745045673023
+D7,drop highest level,-4.2109532639833835
+D7,drop both end levels,-6.493928064339686
+D7,"cubic fit, quadratic term",-4.206466839451309

@@ -1,0 +1,72 @@
+{
+ "coarse": {
+  "n": 1762,
+  "lo": 599.82,
+  "hi": 3996.231,
+  "dnu": 1.9289999999999736
+ },
+ "fine": {
+  "n": 2381,
+  "lo": 600.63946,
+  "hi": 3996.17843,
+  "dnu": 1.4266999999999825
+ },
+ "variants": {
+  "D1": {
+   "cross_n": 2381,
+   "cross_window": 21,
+   "decim_window": 9,
+   "native_n": 1762,
+   "native_dnu": 1.9289999999999736,
+   "cross_dnu": 1.4266999999999825
+  },
+  "D2": {
+   "cross_n": 2381,
+   "cross_window": 21,
+   "decim_window": 9,
+   "native_n": 1762,
+   "native_dnu": 1.9289999999999736,
+   "cross_dnu": 1.4266999999999825
+  },
+  "D3": {
+   "cross_n": 2381,
+   "cross_window": 21,
+   "decim_window": 9,
+   "native_n": 1762,
+   "native_dnu": 1.9289999999999736,
+   "cross_dnu": 1.4266999999999825
+  },
+  "D8": {
+   "cross_n": 1761,
+   "cross_window": 11,
+   "decim_window": 9,
+   "native_n": 2522,
+   "native_dnu": 1.4266900000000078,
+   "cross_dnu": 1.9289999999999736
+  },
+  "D7w": {
+   "cross_n": 1762,
+   "cross_window": 11,
+   "decim_window": 9,
+   "native_n": 2523,
+   "native_dnu": 1.4266999999999825,
+   "cross_dnu": 1.9289999999999736
+  },
+  "D7p": {
+   "cross_n": 1762,
+   "cross_window": 11,
+   "decim_window": 9,
+   "native_n": 2523,
+   "native_dnu": 1.4266999999999825,
+   "cross_dnu": 1.9289999999999736
+  },
+  "D7d": {
+   "cross_n": 1762,
+   "cross_window": 11,
+   "decim_window": 9,
+   "native_n": 2523,
+   "native_dnu": 1.4266999999999825,
+   "cross_dnu": 1.9289999999999736
+  }
+ }
+}

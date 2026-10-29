@@ -1,0 +1,11 @@
+# Versions used for the analyses reported in the manuscript
+numpy==2.5.4
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+openpyxl==3.1.5
+
+# Document assembly only (build_docx.py, build_si_docx.py), not needed to reproduce a number
+lxml>=5.0
+python-docx>=1.1

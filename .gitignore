@@ -1,0 +1,21 @@
+# Data, downloaded separately (see docs/DATASETS.md)
+_shared_data/
+ext_data/
+
+# Generated caches and by-products
+__pycache__/
+*.py[cod]
+out/cache/
+*.log
+
+# Environments
+.venv/
+venv/
+.env
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

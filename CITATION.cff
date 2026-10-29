@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this repository."
+type: software
+title: "Beyond the calibration range: identifiability and extrapolation of concentration-supervised Beer–Lambert unmixing for ATR-FTIR adulterant quantification — code and derived results"
+version: 1.0.0
+date-released: 2026-10-29
+license: MIT
+authors:
+  - family-names: Yang
+    given-names: Yang
+    affiliation: "School of Science, Jimei University, Xiamen, Fujian 361021, China"
+  - family-names: Jiang
+    given-names: Yuxuan
+    affiliation: "School of Science, Jimei University, Xiamen, Fujian 361021, China"
+  - family-names: Cai
+    given-names: Yalu
+    affiliation: "School of Science, Jimei University, Xiamen, Fujian 361021, China"
+  - family-names: Cai
+    given-names: Honghao
+    affiliation: "School of Science, Jimei University, Xiamen, Fujian 361021, China"
+    email: hhcai@jmu.edu.cn
+    orcid: "https://orcid.org/0000-0002-1870-8061"

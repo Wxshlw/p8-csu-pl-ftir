@@ -1,0 +1,147 @@
+{
+ "files": {
+  "cinnamon_Readme.pdf": {
+   "chars": 3075
+  },
+  "cinnamon_Dataset_Description.pdf": {
+   "chars": 4913
+  },
+  "turmeric_README.docx": {
+   "chars": 994
+  }
+ },
+ "patterns": {
+  "instrument": {
+   "cinnamon_Readme.pdf": [
+    "FTIR Spectral Data The FTIR datasets contain absorbance spectra acquired using an ATR-FTIR spectrometer over the spectral range of approximately 400–4000 cm⁻¹."
+   ],
+   "cinnamon_Dataset_Description.pdf": [
+    "4.2 FTIR Spectral Dataset The FTIR dataset contains absorbance spectra acquired using an ATR-FTIR spectrometer over the spectral range of approximately 400–4000 cm⁻¹."
+   ],
+   "turmeric_README.docx": []
+  },
+  "range": {
+   "cinnamon_Readme.pdf": [
+    "FTIR Spectral Data The FTIR datasets contain absorbance spectra acquired using an ATR-FTIR spectrometer over the spectral range of approximately 400–4000 cm⁻¹."
+   ],
+   "cinnamon_Dataset_Description.pdf": [
+    "4.2 FTIR Spectral Dataset The FTIR dataset contains absorbance spectra acquired using an ATR-FTIR spectrometer over the spectral range of approximately 400–4000 cm⁻¹."
+   ],
+   "turmeric_README.docx": []
+  },
+  "variables": {
+   "cinnamon_Readme.pdf": [
+    "Each sample includes: • Sample identifier • 2,523 spectral variables • Adulteration category RGB Image Data The image datasets consist of RGB images acquired under controlled illumination conditions using a Sony α7 III digital camera."
+   ],
+   "cinnamon_Dataset_Description.pdf": [
+    "Each sample contains: • Sample identifier • 2,523 spectral variables • Adulteration category 3 The spectra capture chemical variations introduced by different adulterants and can be directly used for machine learning, chemometric analysis, and spectral feature extraction."
+   ],
+   "turmeric_README.docx": []
+  },
+  "modalities": {
+   "cinnamon_Readme.pdf": [
+    "1 README Multimodal Dataset for Cinnamon Powder Adulteration Detection Using Colorimetry, FTIR Spectroscopy, and RGB Images Version: Version 1.0 1.",
+    "Introduction This repository contains a multimodal dataset developed for the detection and quantification of cinnamon powder adulteration using machine learning and artificial intelligence techniques.",
+    "The dataset comprises three complementary data modalities: colorimet ric measurements, Fourier Transform Infrared (FTIR) spectroscopy, and RGB images."
+   ],
+   "cinnamon_Dataset_Description.pdf": [
+    "1 Dataset Description Multimodal Dataset for Cinnamon Powder Adulteration Detection Using Colorimetry, FTIR Spectroscopy, and RGB Images 1.",
+    "Overview This dataset provides a comprehensive multimodal benchmark for the detection and quantification of cinnamon powder adulteration using three complementary sensing modalities: colorimetric measurements, Fourier Transform Infrared (FTIR) spectroscopy, and RGB images.",
+    "The dataset was developed to support research on food authentication, adulteration detection, machine learning, computer vision, spectroscopy, and multimodal artificial intelligence."
+   ],
+   "turmeric_README.docx": [
+    "README: Multimodal Turmeric Adulteration Dataset Overview This dataset provides a multimodal representation for detecting and quantifying turmeric adulteration using imaging, ATR-FTIR spectroscopy, and color measurements (HunterLab).",
+    "Dataset Contents Image_Data/: Raw images organized by adulteration levels EfficientNetB0_Image_Features.csv: 1280-dimensional image features FTIR_Data.csv: ATR-FTIR spectral data Hunter_Lab_colorimeter.csv: Color measurements (CIE L*a*b* and spectral reflectance) Sample Details Adulteration levels: 0%, 1%, 2%, 3%, 5%, 7%, 9% (w/w) Samples per class: 50 Total samples: 350 Sample ID format: T0S01 T: Turmeric 0: Adulteration level S01: Sample number Data Format All CSV files include: Sample_ID Features (image / spectral / color) Target (adulteration level) Applications Adulteration detection (classification) Adulteration level prediction (regression) Multimodal data fusion "
+   ]
+  },
+  "levels": {
+   "cinnamon_Readme.pdf": [
+    "Data were collected from cinnamon powder adulterated with peanut shell powder, walnut shell powder, and wood dust powder at thirteen predefined adulteration levels.",
+    "Dataset Statistics Description Value Number of adulterants 3 Number of modalities 3 Adulteration levels 13 Samples per adulteration level 50 Samples per adulterant (per modality) 650 2 Total colorimetric samples 1,950 Total FTIR spectra 1,950 Total RGB images 1,950 Total multimodal samples 5,850 4.",
+    "Adulteration Levels The dataset includes samples prepared at the following adulteration levels (w/w): 0%, 1%, 2%, 3%, 4%, 6%, 8%, 10%, 12%, 15%, 18%, 21%, and 24%."
+   ],
+   "cinnamon_Dataset_Description.pdf": [
+    "Three economically important adulterants were considered: • Peanut shell powder • Walnut shell powder • Wood dust powder Each adulterant was mixed with authentic cinnamon powder at thirteen adulteration levels to simulate realistic adulteration scenarios commonly encountered in commercial spice products.",
+    "Adulteration Levels Samples were prepared at thirteen adulteration levels expressed as weight percentage (w/w): 0%, 1%, 2%, 3%, 4%, 6%, 8%, 10%, 12%, 15%, 18%, 21%, and 24%."
+   ],
+   "turmeric_README.docx": [
+    "Dataset Contents Image_Data/: Raw images organized by adulteration levels EfficientNetB0_Image_Features.csv: 1280-dimensional image features FTIR_Data.csv: ATR-FTIR spectral data Hunter_Lab_colorimeter.csv: Color measurements (CIE L*a*b* and spectral reflectance) Sample Details Adulteration levels: 0%, 1%, 2%, 3%, 5%, 7%, 9% (w/w) Samples per class: 50 Total samples: 350 Sample ID format: T0S01 T: Turmeric 0: Adulteration level S01: Sample number Data Format All CSV files include: Sample_ID Features (image / spectral / color) Target (adulteration level) Applications Adulteration detection (classification) Adulteration level prediction (regression) Multimodal data fusion "
+   ]
+  },
+  "samples": {
+   "cinnamon_Readme.pdf": [
+    "Dataset Statistics Description Value Number of adulterants 3 Number of modalities 3 Adulteration levels 13 Samples per adulteration level 50 Samples per adulterant (per modality) 650 2 Total colorimetric samples 1,950 Total FTIR spectra 1,950 Total RGB images 1,950 Total multimodal samples 5,850 4.",
+    "Each adulteration level contains 50 independently prepared samples."
+   ],
+   "cinnamon_Dataset_Description.pdf": [
+    "Adulterant Colorimetry FTIR Spectra RGB Images Total Samples Peanut Shell Powder 650 650 650 1,950 Walnut Shell Powder 650 650 650 1,950 Wood Dust Powder 650 650 650 1,950 Overall Dataset 1,950 1,950 1,950 5,850 2 Each modality contains measurements acquired from the same physical samples, enabling multimodal data fusion and comparative analysis.",
+    "Each adulteration level contains 50 independently prepared samples , resulting in 650 samples for each adulterant.",
+    "The verification process included: • Validation of sample naming conventions • Duplicate sample detection • Verification of adulteration labels • Confirmation of folder organization • Verification of image filenames • Consistency checking between sample identifiers and category labels • Verification that each adulteration level contains exactly 50 samples The validation confirmed that all 5,850 records are complete, correctly labelled, and internally consistent."
+   ],
+   "turmeric_README.docx": [
+    "Dataset Contents Image_Data/: Raw images organized by adulteration levels EfficientNetB0_Image_Features.csv: 1280-dimensional image features FTIR_Data.csv: ATR-FTIR spectral data Hunter_Lab_colorimeter.csv: Color measurements (CIE L*a*b* and spectral reflectance) Sample Details Adulteration levels: 0%, 1%, 2%, 3%, 5%, 7%, 9% (w/w) Samples per class: 50 Total samples: 350 Sample ID format: T0S01 T: Turmeric 0: Adulteration level S01: Sample number Data Format All CSV files include: Sample_ID Features (image / spectral / color) Target (adulteration level) Applications Adulteration detection (classification) Adulteration level prediction (regression) Multimodal data fusion "
+   ]
+  },
+  "naming": {
+   "cinnamon_Readme.pdf": [
+    "Data Modalities Colorimetric Data The colorimetric datasets contain six color attributes measured using a HunterLab UltraScan VIS spectro-colorimeter: • L* • a* • b* • Chroma • Hue • Color Index Each record also includes the sample identifier and adulteration category.",
+    "Each sample includes: • Sample identifier • 2,523 spectral variables • Adulteration category RGB Image Data The image datasets consist of RGB images acquired under controlled illumination conditions using a Sony α7 III digital camera.",
+    "Sample Naming Each sample is assigned a unique identifier that is consistently used across all modalities."
+   ],
+   "cinnamon_Dataset_Description.pdf": [
+    "Each sample contains: • Sample identifier • 2,523 spectral variables • Adulteration category 3 The spectra capture chemical variations introduced by different adulterants and can be directly used for machine learning, chemometric analysis, and spectral feature extraction.",
+    "Sample Naming Convention Each sample is assigned a unique identifier.",
+    "Examples: • CP10S25 – Peanut shell powder, 10% adulteration, Sample 25 • CW12S08 – Walnut shell powder, 12% adulteration, Sample 8 • CD24S50 – Wood dust powder, 24% adulteration, Sample 50 where • CP = Peanut Shell Powder • CW = Walnut Shell Powder • CD = Wood Dust • S = Sample number The same sample identifier is consistently maintained across all three modalities to facilitate multimodal data integration."
+   ],
+   "turmeric_README.docx": [
+    "Dataset Contents Image_Data/: Raw images organized by adulteration levels EfficientNetB0_Image_Features.csv: 1280-dimensional image features FTIR_Data.csv: ATR-FTIR spectral data Hunter_Lab_colorimeter.csv: Color measurements (CIE L*a*b* and spectral reflectance) Sample Details Adulteration levels: 0%, 1%, 2%, 3%, 5%, 7%, 9% (w/w) Samples per class: 50 Total samples: 350 Sample ID format: T0S01 T: Turmeric 0: Adulteration level S01: Sample number Data Format All CSV files include: Sample_ID Features (image / spectral / color) Target (adulteration level) Applications Adulteration detection (classification) Adulteration level prediction (regression) Multimodal data fusion "
+   ]
+  },
+  "qc": {
+   "cinnamon_Readme.pdf": [],
+   "cinnamon_Dataset_Description.pdf": [
+    "Data Quality Assurance Prior to publication, the complete dataset underwent systematic validation to ensure data integrity and consistency.",
+    "The verification process included: • Validation of sample naming conventions • Duplicate sample detection • Verification of adulteration labels • Confirmation of folder organization • Verification of image filenames • Consistency checking between sample identifiers and category labels • Verification that each adulteration level contains exactly 50 samples The validation confirmed that all 5,850 records are complete, correctly labelled, and internally consistent."
+   ],
+   "turmeric_README.docx": []
+  },
+  "serial": {
+   "cinnamon_Readme.pdf": [],
+   "cinnamon_Dataset_Description.pdf": [],
+   "turmeric_README.docx": []
+  },
+  "date": {
+   "cinnamon_Readme.pdf": [
+    "Data were collected from cinnamon powder adulterated with peanut shell powder, walnut shell powder, and wood dust powder at thirteen predefined adulteration levels."
+   ],
+   "cinnamon_Dataset_Description.pdf": [],
+   "turmeric_README.docx": []
+  }
+ },
+ "heads": {
+  "cinnamon_Readme.pdf": "1 README Multimodal Dataset for Cinnamon Powder Adulteration Detection Using Colorimetry, FTIR Spectroscopy, and RGB Images Version: Version 1.0 1. Introduction This repository contains a multimodal dataset developed for the detection and quantification of cinnamon powder adulteration using machine learning and artificial intelligence techniques. The dataset comprises three complementary data moda",
+  "cinnamon_Dataset_Description.pdf": "1 Dataset Description Multimodal Dataset for Cinnamon Powder Adulteration Detection Using Colorimetry, FTIR Spectroscopy, and RGB Images 1. Overview This dataset provides a comprehensive multimodal benchmark for the detection and quantification of cinnamon powder adulteration using three complementary sensing modalities: colorimetric measurements, Fourier Transform Infrared (FTIR) spectroscopy, an",
+  "turmeric_README.docx": "README: Multimodal Turmeric Adulteration Dataset Overview This dataset provides a multimodal representation for detecting and quantifying turmeric adulteration using imaging, ATR-FTIR spectroscopy, and color measurements (HunterLab). It supports research in food authentication, chemometrics, and machine learning. Dataset Contents Image_Data/: Raw images organized by adulteration levels EfficientNe"
+ },
+ "attribution": {
+  "D7_cinnamon": {
+   "reference": "All datasets are public and used under CC BY 4.0. D1–D3: https://github.com/abdulhamidbatayhi123/kan-ftir-food-adulteration. D7: https://doi.org/10.17632/rtbsf2r53x.1. D8: https://doi.org/10.17632/cb5kbt7bgv.2. No new experimental data were generated in this study. The analysis code, the derived result tables (Tables 1–4 and S1–S12), and the split and fold definitions are provided as a supplementary archive with this submission and are available from the corresponding author.",
+   "authors": "All datasets are public and used under CC BY 4.0. D1–D3: htt",
+   "doi": "10.17632/rtbsf2r53x",
+   "first_author": "All datasets are public and used under CC BY 4.0. D1–D3: htt",
+   "n_authors": 2
+  },
+  "D8_turmeric": {
+   "reference": "All datasets are public and used under CC BY 4.0. D1–D3: https://github.com/abdulhamidbatayhi123/kan-ftir-food-adulteration. D7: https://doi.org/10.17632/rtbsf2r53x.1. D8: https://doi.org/10.17632/cb5kbt7bgv.2. No new experimental data were generated in this study. The analysis code, the derived result tables (Tables 1–4 and S1–S12), and the split and fold definitions are provided as a supplementary archive with this submission and are available from the corresponding author.",
+   "authors": "All datasets are public and used under CC BY 4.0. D1–D3: htt",
+   "doi": "10.17632/cb5kbt7bgv",
+   "first_author": "All datasets are public and used under CC BY 4.0. D1–D3: htt",
+   "n_authors": 2
+  },
+  "shared_first_author": true,
+  "shared_authors": [
+   "All datasets are public",
+   "used under CC BY 4.0. D1–D3: htt"
+  ]
+ }
+}

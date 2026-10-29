@@ -1,0 +1,5 @@
+dataset,mirror_sheet,spectrum_columns,distinct_ids,mirror_rows,mirror_cols,extra_in_mirror,extra_ids,extra_examples,absent_from_mirror,absent_ids,absent_examples,flat_spectra
+D1,yeni,354,281,1766,355,2,2,"['28_2', '33_']",0,0,[],352
+D2,Sayfa1,95,91,1764,96,5,5,"['1.kahve1.1', '1.kahve1.2', '1.kahve1.3', '1.kahve1.4']",315,308,"['2.kahve0.19', '2.kahve0.2', '2.kahve0.20', '2.kahve0.21']",405
+D2,Sayfa3,420,402,1764,421,15,9,"['1.kahve1.1', '1.kahve1.2', '1.kahve1.3', '1.kahve1.4']",0,0,[],405
+D3,Sayfa1,424,60,1764,425,11,9,"['p1.1', 'p1.1_2', 'p14', 'p20']",0,0,[],413

@@ -1,0 +1,17 @@
+relation,x,y,unit,n,statistic,p_exact,p_naive,ci_lo,ci_hi,note
+CNR vs CSU RMSEP,CNR,rmse,condition,21,-0.668442285969576,,0.0009251500789666611,,,descriptive; 21 conditions cluster in 7 datasets
+CNR vs best-comparator RMSEP,CNR,best_rmse,condition,21,-0.5898020170319789,,0.004890948968205568,,,descriptive; 21 conditions cluster in 7 datasets
+CNR vs |bias|,CNR,abs_bias,condition,21,-0.613394097713258,,0.003105206204753408,,,descriptive; 21 conditions cluster in 7 datasets
+|gamma| vs |1-slope| (CSU),gabs,sdist,condition,21,0.6212581246070178,,0.0026477728591421854,,,descriptive; 21 conditions cluster in 7 datasets
+|gamma| vs CSU RMSEP,gabs,rmse,condition,21,0.09043630927823676,,0.6966439067773785,,,descriptive; 21 conditions cluster in 7 datasets
+CNR vs CSU/best ratio,CNR,ratio,condition,21,-0.30276503540974914,,0.18218684487320413,,,descriptive; 21 conditions cluster in 7 datasets
+CNR vs CSU RMSEP,CNR,rmse,dataset,7,-0.7142857142857144,0.0880952380952381,,-1.0,0.058823529411764705,exact 7! permutation; cluster bootstrap 4987 reps
+CNR vs best-comparator RMSEP,CNR,best,dataset,7,-0.7857142857142859,0.04801587301587302,,-1.0,-0.058823529411764705,exact 7! permutation; cluster bootstrap 4982 reps
+CNR_eff vs best-comparator RMSEP,CNR_eff,best,dataset,7,-0.7857142857142859,0.04801587301587302,,-1.0,-0.058823529411764705,exact 7! permutation; cluster bootstrap 4981 reps
+CNR_eff vs CSU RMSEP,CNR_eff,rmse,dataset,7,-0.7142857142857144,0.0880952380952381,,-1.0,0.058823529411764705,exact 7! permutation; cluster bootstrap 4980 reps
+|gamma| vs |1-slope| (CSU),gabs,sdist,dataset,7,0.6071428571428572,0.16666666666666666,,-0.37254901960784315,1.0,exact 7! permutation; cluster bootstrap 4977 reps
+|gamma| vs |1-slope| (best comparator),gabs,best_sdist,dataset,7,0.7857142857142859,0.04801587301587302,,-0.058823529411764705,1.0,exact 7! permutation; cluster bootstrap 4983 reps
+|gamma| vs CSU RMSEP,gabs,rmse,dataset,7,-0.07142857142857144,0.9063492063492063,,-0.8666666666666666,0.8666666666666666,exact 7! permutation; cluster bootstrap 4989 reps
+CNR vs CSU/best ratio,CNR,ratio,dataset,7,-0.5714285714285715,0.2,,-0.9607843137254901,0.2075471698113208,exact 7! permutation; cluster bootstrap 4982 reps
+CNR vs CSU RMSEP | |gamma|,CNR,rmse,dataset,7,-0.7148163872521438,0.12420634920634921,,,,partial Spearman controlling gabs; exact 7! permutation
+|gamma| vs |1-slope| | CNR,gabs,sdist,dataset,7,0.6715507368448512,0.14722222222222223,,,,partial Spearman controlling CNR; exact 7! permutation
