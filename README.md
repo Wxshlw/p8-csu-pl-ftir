@@ -3,8 +3,11 @@
 Code, numbered result tables, intermediate results and figures for
 
 **Beyond the calibration range: identifiability and extrapolation of concentration-supervised Beer–Lambert unmixing for ATR-FTIR adulterant quantification**
-Yang Yang, Yuxuan Jiang, Yalu Cai, Honghao Cai — School of Science, Jimei University, Xiamen, Fujian 361021, China
-Hanping Ke — College of Information Engineering, Ningde Normal University, Ningde, Fujian 352100, China
+Yang Yang, Yuxuan Jiang, Yalu Cai, Hanping Ke, Honghao Cai
+
+School of Science, Jimei University, Xiamen, Fujian 361021, China — Yang Yang, Yuxuan Jiang, Yalu Cai, Honghao Cai
+
+College of Information Engineering, Ningde Normal University, Ningde, Fujian 352100, China — Hanping Ke
 
 Repository: <https://github.com/Wxshlw/p8-csu-pl-ftir>
 
