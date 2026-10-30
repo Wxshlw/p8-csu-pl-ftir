@@ -23,8 +23,8 @@ measured matrix spectrum, and the calibrated profile interval width. The reposit
 the estimator, eight comparators, the audit, the calibration-design leverage calculation,
 the interval and coverage analyses, and every experiment and figure of the manuscript.
 
-Release `v1.0.0` is the version submitted with the manuscript. The code, tables and
-results are byte-identical to the submitted supplementary archive; the repository adds the
+Release `v1.0.0` is the deposit the manuscript's Data availability section points to. The code,
+tables and results are exactly those the manuscript was built from; the repository adds the
 scaffolding around them — this README, `docs/`, `figures/`, the licence and citation files,
 `.gitignore`, and a `requirements.txt` pinned to the versions used.
 

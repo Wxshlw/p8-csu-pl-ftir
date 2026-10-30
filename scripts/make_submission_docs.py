@@ -129,7 +129,7 @@ COVER = [
              "the four prespecified comparators (**median ratio 0.861**), and **18 of 48** outside it "
              "(**1.10**). The external datasets return the same four verdicts and the same ordering "
              "(median **0.92** where the audit passes, **1.28** where it fails)."),
-    ("body", "Beyond predictive performance, the protocol identifies the cause of each failure "
+    ("body", "Beyond predictive performance, the protocol diagnoses the mechanism behind each failure "
              "(insufficient spectral contrast, a nonlinear response, a non-physical endmember, or a "
              "misspecified nuisance model) and gives the design rule that avoids it: leverage above "
              "one flags a calibration whose error is systematically larger, where the condition number does "
@@ -150,7 +150,7 @@ COVER = [
              "reported in this paper. All datasets are public and are used under the licences of "
              "their deposits (CC BY 4.0, and CC BY-NC 4.0 for one of them, used here for "
              "non-commercial research); no samples were collected. The analysis code and the derived "
-             "result tables accompany the submission, are deposited at "
+             "result tables are deposited at "
              "https://github.com/Wxshlw/p8-csu-pl-ftir (release v1.0.0), and remain available from "
              "the corresponding author."),
     ("body", "Data reuse declaration: some datasets used here also appear in companion studies by "
