@@ -5,6 +5,8 @@ title: "Beyond the calibration range: identifiability and extrapolation of conce
 version: 1.0.0
 date-released: 2026-10-29
 license: MIT
+repository-code: "https://github.com/Wxshlw/p8-csu-pl-ftir"
+url: "https://github.com/Wxshlw/p8-csu-pl-ftir"
 authors:
   - family-names: Yang
     given-names: Yang
@@ -15,6 +17,9 @@ authors:
   - family-names: Cai
     given-names: Yalu
     affiliation: "School of Science, Jimei University, Xiamen, Fujian 361021, China"
+  - family-names: Ke
+    given-names: Hanping
+    affiliation: "College of Information Engineering, Ningde Normal University, Ningde, Fujian 352100, China"
   - family-names: Cai
     given-names: Honghao
     affiliation: "School of Science, Jimei University, Xiamen, Fujian 361021, China"

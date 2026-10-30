@@ -109,3 +109,8 @@ the Markdown sources. They need Microsoft Word for the PDF export step and an El
 template (`Elsevier-template.docx` in the working directory, and `MML2OMML.XSL` from the
 Office installation). The manuscript and supplement sources are not part of this
 repository; document assembly is not needed to reproduce any number.
+`make_submission_docs.py` builds the cover letter on the author's own letterhead file
+(banner image, sender block and handwritten signature), which is likewise not
+redistributed, so that one step stops with an explanatory message unless
+`manuscript/cover_letter_template.docx` is present; the highlights and novelty-statement
+builders in the same script have no such dependency.

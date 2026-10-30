@@ -299,7 +299,8 @@ def main():
 
     p = doc.add_paragraph(style="Els-Author")
     for k, (nm, mark) in enumerate([("Yang Yang", "a"), ("Yuxuan Jiang", "a"),
-                                    ("Yalu Cai", "a"), ("Honghao Cai", "a,*")]):
+                                    ("Yalu Cai", "a"), ("Hanping Ke", "b"),
+                                    ("Honghao Cai", "a,*")]):
         if k:
             p.add_run(", ")
         p.add_run(nm)
@@ -310,6 +311,12 @@ def main():
     r = p.add_run("a")
     r.font.superscript = True
     p.add_run(" School of Science, Jimei University, Xiamen, Fujian Province 361021, China")
+
+    p = doc.add_paragraph(style="Els-Affiliation")
+    r = p.add_run("b")
+    r.font.superscript = True
+    p.add_run(" College of Information Engineering, Ningde Normal University, "
+              "Ningde, Fujian Province 352100, China")
 
     p = doc.add_paragraph(style="Els-Affiliation")
     p.add_run("* Corresponding author: Honghao Cai. E-mail: hhcai@jmu.edu.cn")

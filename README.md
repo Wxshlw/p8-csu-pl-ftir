@@ -4,6 +4,9 @@ Code, numbered result tables, intermediate results and figures for
 
 **Beyond the calibration range: identifiability and extrapolation of concentration-supervised Beer–Lambert unmixing for ATR-FTIR adulterant quantification**
 Yang Yang, Yuxuan Jiang, Yalu Cai, Honghao Cai — School of Science, Jimei University, Xiamen, Fujian 361021, China
+Hanping Ke — College of Information Engineering, Ningde Normal University, Ningde, Fujian 352100, China
+
+Repository: <https://github.com/Wxshlw/p8-csu-pl-ftir>
 
 An adulterant mass fraction is estimated from ATR-FTIR spectra with a two-component
 Beer–Lambert closure in which the concentration enters linearly. The matrix endmember, a
